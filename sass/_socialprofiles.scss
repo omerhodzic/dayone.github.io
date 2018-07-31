@@ -1,0 +1,266 @@
+.social-profiles {
+    grid-column: 1 / -1;
+
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, max-content));
+    grid-gap: 3rem;
+
+    .social-1 {
+
+        display: grid;
+        align-items: center;
+        justify-items: center;
+
+        &__icon {
+            display: grid;
+            align-items: center;
+            justify-items: center;
+            padding: 4rem;
+            border-radius: 3rem;
+            background-image: linear-gradient(to right, $fb-color-1, $fb-color-2);
+            box-shadow: 0 .5rem 1rem rgba($fb-dropshadow, .4);
+            margin-bottom: 2rem;
+            transition: all .2s;
+
+
+            .icon {
+                width: 5rem;
+                height: 5rem;
+                fill: #fff;
+            }
+
+            &:hover {
+                transform: translateY(-.5rem);
+                box-shadow: 0 .5rem 1rem rgba($fb-dropshadow, .6);
+            }
+        }
+
+        .new {
+            font-size: 1.2rem;
+            color: $color-grow;
+            margin-top: 1rem;
+        }
+
+        .username {
+            margin-top: 1rem;
+            font-size: 1.2rem;
+            color: $color-light-1;
+        }
+    }
+
+    .social-2 {
+
+        display: grid;
+        align-items: center;
+        justify-items: center;
+
+        &__icon {
+            display: grid;
+            align-items: center;
+            justify-items: center;
+            padding: 4rem;
+            border-radius: 3rem;
+            background-image: linear-gradient(to right, $tw-color-1, $tw-color-2);
+            box-shadow: 0 .5rem 1rem rgba($tw-dropshadow, .4);
+            margin-bottom: 2rem;
+            transition: all .2s;
+
+
+            .icon {
+                width: 5rem;
+                height: 5rem;
+                fill: #fff;
+            }
+
+            &:hover {
+                transform: translateY(-.5rem);
+                box-shadow: 0 .5rem 1rem rgba($tw-dropshadow, .6);
+            }
+        }
+
+        .new {
+            font-size: 1.2rem;
+            color: $color-grow;
+            margin-top: 1rem;
+        }
+
+        .username {
+            margin-top: 1rem;
+            font-size: 1.2rem;
+            color: $color-light-1;
+        }
+    }
+
+    .social-3 {
+
+        display: grid;
+        align-items: center;
+        justify-items: center;
+
+        &__icon {
+            display: grid;
+            align-items: center;
+            justify-items: center;
+            padding: 4rem;
+            border-radius: 3rem;
+            background-image: linear-gradient(to right, $ig-color-1, $ig-color-2);
+            box-shadow: 0 .5rem 1rem rgba($ig-dropshadow, .4);
+            margin-bottom: 2rem;
+            transition: all .2s;
+
+
+            .icon {
+                width: 5rem;
+                height: 5rem;
+                fill: #fff;
+            }
+
+            &:hover {
+                transform: translateY(-.5rem);
+                box-shadow: 0 .5rem 1rem rgba($ig-dropshadow, .6);
+            }
+        }
+
+        .zero {
+            font-size: 1.2rem;
+            color: $color-light-1;
+            margin-top: 1rem;
+        }
+
+        .username {
+            margin-top: 1rem;
+            font-size: 1.2rem;
+            color: $color-light-1;
+        }
+    }
+
+    .social-4 {
+
+        display: grid;
+        align-items: center;
+        justify-items: center;
+
+        &__icon {
+            display: grid;
+            align-items: center;
+            justify-items: center;
+            padding: 4rem;
+            border-radius: 3rem;
+            background-image: linear-gradient(to right, $db-color-1, $db-color-2);
+            box-shadow: 0 .5rem 1rem rgba($db-dropshadow, .4);
+            margin-bottom: 2rem;
+            transition: all .2s;
+
+
+            .icon {
+                width: 5rem;
+                height: 5rem;
+                fill: #fff;
+            }
+
+            &:hover {
+                transform: translateY(-.5rem);
+                box-shadow: 0 .5rem 1rem rgba($db-dropshadow, .6);
+            }
+        }
+
+        .new {
+            font-size: 1.2rem;
+            color: $color-grow;
+            margin-top: 1rem;
+        }
+
+        .username {
+            margin-top: 1rem;
+            font-size: 1.2rem;
+            color: $color-light-1;
+        }
+    }
+
+    .social-5 {
+
+        display: grid;
+        align-items: center;
+        justify-items: center;
+
+        &__icon {
+            display: grid;
+            align-items: center;
+            justify-items: center;
+            padding: 4rem;
+            border-radius: 3rem;
+            background-image: linear-gradient(to right, $sp-color-1, $sp-color-2);
+            box-shadow: 0 .5rem 1rem rgba($sp-dropshadow, .4);
+            margin-bottom: 2rem;
+            transition: all .2s;
+
+
+            .icon {
+                width: 5rem;
+                height: 5rem;
+                fill: #fff;
+            }
+
+            &:hover {
+                transform: translateY(-.5rem);
+                box-shadow: 0 .5rem 1rem rgba($sp-dropshadow, .6);
+            }
+        }
+
+        .new {
+            font-size: 1.2rem;
+            color: $color-lose;
+            margin-top: 1rem;
+        }
+
+        .username {
+            margin-top: 1rem;
+            font-size: 1.2rem;
+            color: $color-light-1;
+        }
+    }
+
+    .social-6 {
+
+        display: grid;
+        align-items: center;
+        justify-items: center;
+
+        &__icon {
+            display: grid;
+            align-items: center;
+            justify-items: center;
+            padding: 4rem;
+            border-radius: 3rem;
+            background-image: linear-gradient(to right, $yt-color-1, $yt-color-2);
+            box-shadow: 0 .5rem 1rem rgba($yt-dropshadow, .4);
+            margin-bottom: 2rem;
+            transition: all .2s;
+
+
+            .icon {
+                width: 5rem;
+                height: 5rem;
+                fill: #fff;
+            }
+
+            &:hover {
+                transform: translateY(-.5rem);
+                box-shadow: 0 .5rem 1rem rgba($yt-dropshadow, .6);
+            }
+        }
+
+        .new {
+            font-size: 1.2rem;
+            color: $color-grow;
+            margin-top: 1rem;
+        }
+
+        .username {
+            margin-top: 1rem;
+            font-size: 1.2rem;
+            color: $color-light-1;
+        }
+    }
+}

@@ -1,0 +1,74 @@
+/* Colors */
+
+$color-bold: #333a47;
+$color-light-1: #bec4cd;
+$color-light-2: #6b7b93;
+$color-grow: #36bb78;
+$color-lose: #f72e36;
+
+/* Facebook */
+$fb-color-1: #1958cb;
+$fb-color-2: #237ffb;
+$fb-dropshadow: #2d74fc;
+
+/* Twitter */
+$tw-color-1: #4e88ff;
+$tw-color-2: #23c1fb;
+$tw-dropshadow: #0570dd;
+
+/* Youtube */
+$yt-color-1: #ff6363;
+$yt-color-2: #ff0c23;
+$yt-dropshadow: #ff1e30;
+
+/* Spotify */
+$sp-color-1: #99da02;
+$sp-color-2: #84bd00;
+$sp-dropshadow: #b2f41a;
+
+/* Dribbble */
+$db-color-1: #ff699a;
+$db-color-2: #ff2f73;
+$db-dropshadow: #fc2b9e;
+
+/* Instagram */
+$ig-color-1: #915aff;
+$ig-color-2: #5b23fb;
+$ig-dropshadow: #7048f1;
+
+
+// FONT VARIABLES
+$font-primary: 'Lato', sans-serif;
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: $font-primary;
+    background-color: #f3f6f9;
+    display: grid;
+    justify-content: center;
+}
+
+.container {
+    background-color: #fff;
+    padding: 5rem;
+
+    box-shadow: 0 1rem 2rem rgba(#6a7080 , .02);
+
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    width: 90vw;
+    height: auto;
+    border-radius: 5px;
+}

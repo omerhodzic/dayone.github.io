@@ -1,0 +1,70 @@
+.header {
+    grid-column: 1 / -1;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+    .logo {
+
+        grid-column: 1 / span 6;
+
+        display: grid;
+        align-content: center;
+
+        span {
+            font-size: 2rem;
+            display: flex;
+        }
+
+        img {
+            height: 2.5rem;
+            margin-right: 1rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            letter-spacing: .09rem;
+            color: $color-light-1;
+            margin-top: .5rem;
+        }
+
+    }
+
+    .option {
+
+        grid-column: 7 / span 12;
+        display: grid;
+        justify-content: end;
+        align-items: center;
+        grid-template-columns: repeat(3, min-content);
+
+        &__icon {
+            width: 1.5rem;
+            height: 1.5rem;
+            margin-right: 2rem;
+            fill: $color-light-2;
+        }
+
+        button {
+            display: grid;
+            padding: .6rem;
+            border: none;
+            border-radius: 50px;
+            background-color: #fff;
+            box-shadow: 0 .5rem 1rem rgba(#000, .08);
+            transition: all .2s;
+
+            &:hover {
+                cursor: pointer;
+                transform: translateY(-.2rem);
+                box-shadow: 0 .5rem 1rem rgba(#000, .1);
+            }
+        }
+
+        button .icon {
+            width: 1.5rem;
+            height: 1.5rem;
+            fill: $color-light-2;
+        }
+    }
+}
